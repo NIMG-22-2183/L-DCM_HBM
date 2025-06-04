@@ -135,7 +135,7 @@ E   =   [ 0    0    0    0
           1    0    0    1
           0    1    0    0]/32;
 pE.Hnmda  = repmat(zeros(p,p),[1 1 n]);
-pC.Hnmad  = repmat(E        ,[1 1 n]);
+pC.Hnmda  = repmat(E        ,[1 1 n]);
 
 EE   =   [0    0    0   0
           1    0    0   0
